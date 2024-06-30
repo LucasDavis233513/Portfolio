@@ -3,12 +3,88 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css">
         <title>Portfolio</title>
     </head>
     <body>
-        <h1>Lucas Davis</h1>
-        <a href="./Public/resume.html">Resume</a>
-        <a href="https://github.com/LucasDavis233513">GitHub Page</a>
-        <hr>
+        <div id="Header" class="fixed-top">
+            <nav class="links">
+                <a class="navBtn" href="./index.html">Lucas Davis</a>
+                <ul class="navMenu">
+                    <li><a class="navBtn float-right" href="#About">About</a></li>
+                    <li><a class="navBtn float-right" href="#Skills">Skills</a></li>
+                    <li><a class="navBtn float-right" href="#Projects">Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="space"></div>
+        <div id="Content">
+            <div id="About">
+                <h2>About Me</h2>
+                <p>
+                    Duis gravida neque id auctor consectetur. In vel vehicula libero. In porta lacinia libero, id tempor nulla fermentum at. Curabitur 
+                    lacinia nulla quis dignissim semper. Aenean sed mollis massa. Nulla sed ultrices turpis, quis maximus turpis. Integer non luctus sapien, 
+                    sed cursus felis. Suspendisse at augue ac enim pellentesque sodales. Etiam eu neque ac magna sagittis dapibus. Phasellus et velit sit 
+                    amet odio fringilla tincidunt. Cras non purus ut enim molestie scelerisque blandit a risus. Etiam efficitur luctus sodales. Class aptent 
+                    taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla tempor nec ipsum a maximus. 
+                </p>
+            </div>
+            <div id="Skills">
+                <h2>Tech Stack</h2>
+                <p>
+                    Sed tristique, orci et rutrum ultricies, ante lectus tincidunt sapien, bibendum semper nisi justo quis risus. Quisque nec nunc libero. 
+                    Vestibulum varius urna eu cursus elementum. Quisque commodo malesuada est, ac sagittis augue bibendum vitae. Cras felis lacus, egestas 
+                    a scelerisque hendrerit, blandit ut ante. Etiam et enim ultricies, tempus justo et, mollis nibh. Duis vel dui gravida, sodales velit 
+                    ac, commodo sapien. Curabitur condimentum nec ipsum et auctor. Vestibulum vel tempor massa, nec venenatis nulla. Vivamus in lacus non 
+                    libero commodo molestie. Curabitur porttitor, diam eu porta feugiat, magna magna vulputate neque, ac aliquam nisl mi et velit. 
+                    Maecenas in elit arcu. Aliquam erat volutpat. Suspendisse facilisis dolor vel congue sagittis. 
+                </p>
+            </div>
+            <div id="Projects">
+                <h2>Projects</h2>
+                <div id="Container">
+                    <div class="box">
+                        <img class="img" src="./Assets/Images/honorOfWar.png" alt="placeHolder">
+                        <div class="description">
+                            <h3>Honor of War</h3>
+                            <p>
+                                Based in a ward time. You are part of a military convoy transporting sensitive documents. When your fleet was set upon by enemy 
+                                forces. Despite your teams best effort, the enemy is able to overpower you; causing the entire fleet to crash. Somehow you 
+                                manage to survive, but you notice that the crash site has been picked clean by the enemy. You find yourself behind enemy lines, 
+                                sensitive battle plans stolen, and your entire team killed. Your goal is to find your way back to the base; while collecting the 
+                                correspondence that the enemy stole along the way.
+                            </p>
+                            <nav class="links">
+                                <a href="https://github.com/LucasDavis233513">
+                                    <img class="icon" src="./Assets/Images/githubIcon.png" alt="github icon">
+                                </a>
+                                <a href="https://lucasdavis2335.itch.io/honor-of-war">
+                                    <img class="icon" src="./Assets/Images/itchIcon.png" alt="itch.io icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img class="img" src="./Assets/Images/placeHolder.png" alt="placeHolder">
+                        <div class="description">
+                            <h3>Project title</h3>
+                            <p>
+                                Brief project description <br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis felis vel rutrum faucibus. Pellentesque semper placerat 
+                                odio, at interdum orci. Nullam dapibus mauris sit amet viverra consectetur. Pellentesque convallis venenatis sagittis. Fusce 
+                                eu lacinia nisl. Mauris nec mi eu metus gravida laoreet a vitae lectus. Cras at nisl dignissim, egestas ex vitae, vehicula 
+                                orci. Vivamus mollis quam eget elit blandit molestie. 
+                            </p>
+                            <nav class="links">
+                                <a href="https://github.com/LucasDavis233513">
+                                    <img class="icon" src="./Assets/Images/githubIcon.png" alt="github icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </body>
 </html>
