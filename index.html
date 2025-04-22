@@ -3,7 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel = "stylesheet" href = "./styles.css">
+        <link rel = "stylesheet" href = "./css/styles.css">
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script src="./js/email.js" defer></script>
         <title>Lucas Davis</title>
     </head>
     <body>
@@ -85,7 +87,7 @@
                             </div>
                         </div>
 
-                        <div class = "Card Project Project-Left">
+                        <div class = "Card Project Project-Right">
                             <img class = "ProjectImage" src = "Assets/Images/Projects/speech-recognition.svg" alt="">
         
                             <div>
@@ -138,7 +140,7 @@
         
                         </div>
         
-                        <div class = "Card Project Project-Left">
+                        <div class = "Card Project Project-Right">
                             <img class = "ProjectImage" src = "Assets/Images/Projects/honorOfWar.png" alt="">
         
         
@@ -167,12 +169,13 @@
                                 </nav>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>
 
             <section id = "Contact" class = "Section contact-container">
-                <form action = "" class = "contact-left">
+                <form id = "contact-form" class = "contact-left">
                     <div class = "contact-left-title">
                         <h2>Get in touch</h2>
                         <hr>

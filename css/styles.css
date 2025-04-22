@@ -71,12 +71,20 @@ hr {
     cursor: pointer;
 }
 
-.Content {
+/* .Content {
     margin: auto;
     width: 75%;
     border: 3px;
     padding: 30px;
+} */
+
+.Content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    box-sizing: border-box;
 }
+
 
 .External ul {
     list-style-type: none;
@@ -247,8 +255,12 @@ hr {
     position: relative;
 }
 
+.Section + .Section {
+    margin-top: 4rem;
+}
+
 .Section {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
